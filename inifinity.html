@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>INFINITY - IMPEX SOLUTIONS</title>
+<link rel="icon" href="images/logo.png" type="image/png">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+  @import url('style.css');
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div>
+    <i class="fas fa-map-marker-alt"></i> 20/656-3-a, RTC Colony, MACHILIPATNAM, KRISHNA, ANDHRA
+PRADESH, 521001 , India
+    <a href="tel:+919398374505"><i class="fas fa-phone"></i> +91 93983 74505</a>
+    <a href="mailto:trade@infinityimpaxsolutions.com"><i class="fas fa-envelope"></i> trade@infinityimpaxsolutions.com</a>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav>
+  <a href="#" class="logo">
+    <div class="logo-icon">
+      <img src="images/logo.jpeg" style="width:38px;height:38px;object-fit:contain;border-radius:50%;">
+    </div>
+    <div class="logo-text">
+      <strong>INFINITY</strong>
+      <span>Impex Solutions</span>
+    </div>
+  </a>
+  <div class="nav-links">
+    <a href="#" class="active">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#products">Products</a>
+    <a href="#why">Why Choose Us</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact Us</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-content">
+    <div class="hero-eyebrow">Welcome to Infinity Impex Solutions</div>
+    <h1>Connecting Indian<br>Quality Products To<br><span>Global Markets</span></h1>
+    <p>Exporting Fresh Onions, Rice, Spices & More — Directly from India's Finest Farms to Buyers Worldwide.</p>
+    <div class="hero-btns">
+      <a href="#products" class="btn-secondary"><i class="fas fa-box-open"></i> OUR PRODUCTS</a>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-item">
+    <div class="trust-icon"><i class="fas fa-globe"></i></div>
+    <div><h4>Global Presence</h4><p>Exporting to 20+ Countries</p></div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon"><i class="fas fa-medal"></i></div>
+    <div><h4>Premium Quality</h4><p>100% Quality Assurance</p></div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon"><i class="fas fa-shipping-fast"></i></div>
+    <div><h4>Timely Delivery</h4><p>On-time Shipment Every Time</p></div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon"><i class="fas fa-tags"></i></div>
+    <div><h4>Best Prices</h4><p>Competitive Prices for Bulk Orders</p></div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon"><i class="fas fa-headset"></i></div>
+    <div><h4>Customer Support</h4><p>24/7 Support for Our Clients</p></div>
+  </div>
+</div>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <div class="section-eyebrow">Our Products</div>
+  <h2 class="section-title">Premium Quality Products</h2>
+  <div class="section-divider"><span></span></div>
+  <div class="products-grid">
+    <div class="product-card" data-product-id="1" data-product-name="Fresh Onions" data-product-image='images/Onion2.jpeg'>
+      <img class="product-img" src='images/Onion2.jpeg' alt="Fresh Onions">
+      <div class="product-body">
+        <h3>Fresh Onions</h3>
+        <div class="product-specs-hidden" style="display: none;">
+          <div class="product-spec"><span class="spec-label">Available Size:</span><span class="spec-val">25mm+, 35mm+, 45mm+, 55mm+</span></div>
+          <div class="product-spec"><span class="spec-label">Packaging:</span><span class="spec-val">5kg, 10kg, 20kg, 25kg Mesh Bags</span></div>
+          <div class="product-spec"><span class="spec-label">MOQ:</span><span class="spec-val">1 x 20' FCL</span></div>
+        </div>
+        <button class="btn-details" onclick="openProductModal(this)">VIEW DETAILS</button>
+      </div>
+    </div>
+    <div class="product-card" data-product-id="2" data-product-name="Rice" data-product-image='images/Rice.jpeg'>
+      <img class="product-img" src='images/Rice.jpeg' alt="Rice">
+      <div class="product-body">
+        <h3>Rice</h3>
+        <div class="product-specs-hidden" style="display: none;">
+          <div class="product-spec"><span class="spec-label">Varieties:</span><span class="spec-val"
+            <ol>
+              <li>1121 Basmati</li>
+              <li> Non-Basmati</li> 
+              <li>Sona Masoori</li>
+              <li> IR 64</li></ol></span></div>
+          <div class="product-spec"><span class="spec-label">Packaging:</span><span class="spec-val">5kg, 10kg, 25kg, 50kg PP Bags</span></div>
+          <div class="product-spec"><span class="spec-label">MOQ:</span><span class="spec-val">1 x 20' FCL</span></div>
+        </div>
+        <button class="btn-details" onclick="openProductModal(this)">VIEW DETAILS</button>
+      </div>
+    </div>
+    <div class="product-card" data-product-id="3" data-product-name="Spices" data-product-image='images/Spices2.jpeg'>
+      <img class="product-img" src='images/Spices2.jpeg' alt="Spices">
+      <div class="product-body">
+        <h3>Spices</h3>
+        <div class="product-specs-hidden" style="display: none;">
+          <div class="product-spec"><span class="spec-label">Types:</span><span class="spec-val">
+            <ol>
+              <li>Red Chilli</li>
+              <li>Turmeric</li>
+              <li>Coriander</li>
+              <li>Cumin</li>
+              <li>Black Pepper & More</li>
+            </ol>
+          </span></div>
+          <div class="product-spec"><span class="spec-label">Packaging:</span><span class="spec-val">25kg, 50kg PP Bags</span></div>
+          <div class="product-spec"><span class="spec-label">MOQ:</span><span class="spec-val">1 x 20' FCL</span></div>
+        </div>
+        <button class="btn-details" onclick="openProductModal(this)">VIEW DETAILS</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT US -->
+<section id="about">
+  <div class="about-text">
+    <div class="about-eyebrow">About Us</div>
+    <h2 class="about-title">Infinity Impex Solutions</h2>
+    <!-- Add this after the about-point vision div -->
+<div style="
+  display:flex; align-items:center; gap:1rem;
+  margin-top:1.8rem; padding:1.2rem 1.4rem;
+  border:1.5px solid #e2e8f0; border-radius:8px;
+  background:#f8faff;
+">
+  <div style="
+    width:58px; height:58px; border-radius:50%; flex-shrink:0;
+    background:#0d2b4e; display:flex; align-items:center;
+    justify-content:center; font-size:1.4rem;
+  ">👤</div>
+  <div>
+    <div style="font-size:0.68rem; text-transform:uppercase;
+      letter-spacing:0.12em; color:#ff6b00; font-weight:700;
+      font-family:'Montserrat',sans-serif; margin-bottom:0.2rem;">
+      Founder & Managing Director
+    </div>
+    <div style="font-family:'Montserrat',sans-serif; font-weight:800;
+      font-size:1rem; color:#0d2b4e; margin-bottom:0.15rem;">
+      Kokku Naga krishna Vamsi 
+    </div>
+  </div>
+</div>
+    <p>We are a trusted Exporter of Fresh Onions, Rice, and Spices from India. Our mission is to deliver premium quality products to global markets with reliability, transparency, and commitment.</p>
+    <img class="about-img" src='images/About us.jpg' alt="Cargo operations" />
+    <div class="about-point" style="margin-top:1.5rem">
+      <div class="ap-icon"><i class="fas fa-bullseye"></i></div>
+      <div><h4>Our Mission</h4><p>To provide world-class quality products and build long-term international relationships.</p></div>
+    </div>
+    <div class="about-point">
+      <div class="ap-icon"><i class="fas fa-eye"></i></div>
+      <div><h4>Our Vision</h4><p>To become a global leader in Indian agricultural exports trusted by buyers worldwide.</p></div>
+    </div>
+    <a href="#contact" class="btn-learn"><i class="fas fa-arrow-right"></i> LEARN MORE ABOUT US</a>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section id="why">
+  <div class="why-content">
+    <div class="about-eyebrow">Why Choose Us</div>
+    <h2 class="why-title">Your Trusted Export Partner</h2>
+    <p class="why-sub">We go beyond just supplying products — we build lasting partnerships.</p>
+    <div class="why-item">
+      <div class="why-check"><i class="fas fa-check"></i></div>
+      <div><h4>Premium Quality Products</h4><p>We ensure the best quality in every shipment with proper grading and lab testing.</p></div>
+    </div>
+    <div class="why-item">
+      <div class="why-check"><i class="fas fa-check"></i></div>
+      <div><h4>Competitive Prices</h4><p>Best prices for bulk orders with flexibility and transparent pricing.</p></div>
+    </div>
+    <div class="why-item">
+      <div class="why-check"><i class="fas fa-check"></i></div>
+      <div><h4>Reliable Shipping</h4><p>Strong logistics network for timely delivery to any port worldwide.</p></div>
+    </div>
+    <div class="why-item">
+      <div class="why-check"><i class="fas fa-check"></i></div>
+      <div><h4>Professional Team</h4><p>Experienced team to support your sourcing and documentation needs.</p></div>
+    </div>
+    <div class="why-item">
+      <div class="why-check"><i class="fas fa-check"></i></div>
+      <div><h4>Full Documentation Support</h4><p>We handle all certificates, phytosanitary, APEDA, and export compliance paperwork.</p></div>
+    </div>
+    <div class="why-item">
+      <div class="why-check"><i class="fas fa-check"></i></div>
+      <div><h4>International Experience</h4><p>Serving clients across Middle East, Europe, Southeast Asia, and Africa with trust.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<div class="cert-section">
+  <div class="cert-eyebrow">Our Certifications &amp; Licenses</div>
+  <h2 class="cert-heading">Certified. Compliant. Trusted Worldwide.</h2>
+  <p class="cert-sub">We are a legally registered export company with all essential certifications.</p>
+  <div class="cert-grid">
+    <div class="cert-card">
+      <div class="cert-logo">🏛️</div>
+      <h4>IEC Registered</h4>
+      <p>Import Export Code</p>
+      <span class="cert-num">No: AALFI9443G</span>
+    </div>
+    <div class="cert-card">
+      <div class="cert-logo">📋</div>
+      <h4>GST Registered</h4>
+      <p>Goods &amp; Services Tax</p>
+      <span class="cert-num">No: 37AALFI9443G1ZZ</span>
+    </div>
+    <div class="cert-card">
+      <div class="cert-logo">🌿</div>
+      <h4>APEDA Registered</h4>
+      <p>Agricultural &amp; Processed Food Products Export</p>
+    </div>
+    <div class="cert-card">
+      <div class="cert-logo">✅</div>
+      <h4>FSSAI Certified</h4>
+      <p>Food Safety Standards</p>
+      <span class="cert-num">No: 13621XXXXX</span>
+    </div>
+    <div class="cert-card">
+      <div class="cert-logo">🏢</div>
+      <h4>MSME Registered</h4>
+      <p>Micro, Small &amp; Medium Enterprises</p>
+    </div>
+    <div class="cert-card">
+      <div class="cert-logo">🏦</div>
+      <h4>Bank Verified</h4>
+      <p>Current Account Verified Exporter</p>
+    </div>
+  </div>
+</div>
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="section-eyebrow">Our Gallery</div>
+  <h2 class="section-title">Glimpses of Our Operations</h2>
+  <div class="section-divider"><span></span></div>
+  <div class="gallery-grid">
+    <img src='images/About us.jpg' alt="Ship cargo" />
+    <img src='images/Rice g.jpeg' alt="Rice bags" />
+    <img src='images/Onion.jpeg' alt="Onions" />
+    <img src='images/Onion3.jpeg' alt="Onions" />
+    <img src='images/Spices 1.jpeg' alt="Spices" />
+    <img src='images/Spices2.jpeg' alt="Spices" />
+    <img src='images/Rice2.jpeg' alt="Rice" />
+    <img src='images/Rice.jpeg' alt="Rice" />
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact">
+  <div class="footer-main">
+    <div class="footer-brand">
+      <div class="footer-logo-text">
+        <strong>INFINITY</strong>
+        <span>Impex Solutions</span>
+      </div>
+      <p>Infinity Impex Solutions is a reputed export company from India, supplying premium quality Onions, Rice, and Spices to global markets with reliability and transparency.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about-why">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#why">Why Choose Us</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Our Products</h4>
+      <ul>
+        <li><a href="#products">Fresh Onions</a></li>
+        <li><a href="#products">Rice</a></li>
+        <li><a href="#products">Spices</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Info</h4>
+      <div class="contact-line"><i class="fas fa-phone"></i><span>+91 93983 74505</span></div>
+      <div class="contact-line"><i class="fas fa-envelope"></i><span>trade@infinityimpexsolutions.com</span></div>
+      <div class="contact-line"><i class="fas fa-map-marker-alt"></i><span>20/656-3-a, RTC Colony, MACHILIPATNAM, KRISHNA, ANDHRA
+PRADESH, 521001, India</span></div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Infinity Impex Solutions. All Rights Reserved.</span>
+  </div>
+</footer>
+<!-- PRODUCT DETAILS MODAL -->
+<div id="productModal" class="product-modal">
+  <div class="modal-overlay" onclick="closeProductModal()"></div>
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeProductModal()">&times;</button>
+    <div class="modal-body">
+      <img id="modalProductImage" src="" alt="Product" class="modal-product-image">
+      <div class="modal-details">
+        <h2 id="modalProductName"></h2>
+        <div id="modalProductSpecs" class="modal-specs"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
